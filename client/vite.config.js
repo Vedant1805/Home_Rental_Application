@@ -5,7 +5,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://home-rentals-application.onrender.com",
+        target: "http://localhost:4000",
         secure: false,
       },
     },
